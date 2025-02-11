@@ -1,5 +1,5 @@
-FROM php:8.2-apache
-MAINTAINER Julian Xhokaxhiu <info at julianxhokaxhiu dot com>
+FROM php:8.3-apache
+LABEL maintainer="Hoellenwesen"
 
 # internal variables
 ENV HTML_DIR /var/www/html
