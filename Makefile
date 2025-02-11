@@ -13,7 +13,7 @@ SHELL=/bin/bash
 ###############################################################################
 
 # Container name
-CONTAINER_NAME ?= "julianxhokaxhiu/lineageota"
+CONTAINER_NAME ?= "hoellenwesen/lineageota"
 
 # Tag name
 TAG_NAME ?= "latest"
