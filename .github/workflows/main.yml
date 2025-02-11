@@ -37,7 +37,7 @@ jobs:
     - name: Build
       uses: docker/build-push-action@v5
       with:
-        tags: ${{ env._RELEASE_NAME }}:${{ env._RELEASE_VERSION }}
+        tags: ghcr.io/${{ github.repository_owner }}/${{ env._RELEASE_NAME }}:${{ env._RELEASE_VERSION }}
 
 #    - name: Run Trivy vulnerability scanner
 #      uses: aquasecurity/trivy-action@master
@@ -53,4 +53,4 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: ${{ env._RELEASE_NAME }}:${{ env._RELEASE_VERSION }}
+        tags: ghcr.io/${{ github.repository_owner }}/${{ env._RELEASE_NAME }}:${{ env._RELEASE_VERSION }}
