@@ -3,12 +3,12 @@ name: LineageOTA
 on:
   push:
     branches:
-    - '2.0'
+    - 'main'
     tags:
     - "*"
   pull_request:
     branches:
-    - '2.0'
+    - 'main'
 
 env:
   _RELEASE_NAME: hoellenwesen/lineageota

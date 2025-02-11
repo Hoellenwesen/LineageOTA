@@ -1,4 +1,4 @@
-if ($env:_BUILD_BRANCH -eq "refs/heads/2.0")
+if ($env:_BUILD_BRANCH -eq "refs/heads/main")
 {
   $env:_IS_BUILD_CI = "true"
   $env:_RELEASE_VERSION = "latest"
