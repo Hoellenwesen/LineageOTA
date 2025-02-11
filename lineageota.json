@@ -1,7 +1,7 @@
 [
 	{
 		"DisableLocalBuilds": false,
-		"DisableGithubBuilds": false,
+		"DisableGithubBuilds": true,
 		"MaxGithubReleasesPerRepo": 0,
 		"OldestGithubRelease": "",
 		"EnableLocalCache": false,
@@ -13,12 +13,10 @@
 		"LocalHomeURL": "",
 		"GithubHomeURL": "",
 		"DeviceNames": {
-			"kebab": "8T",
-			"lemonade": "9"
+			"avicii": "Oneplus Nord"
 		},
 		"DeviceVendors": {
-			"kebab": "Oneplus",
-			"lemonade": "Oneplus"
+			"avicii": "Oneplus"
 		}
 	}
 ]
