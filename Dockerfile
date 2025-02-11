@@ -4,6 +4,8 @@ LABEL maintainer="Hoellenwesen"
 # internal variables
 ENV HTML_DIR /var/www/html
 ENV FULL_BUILDS_DIR $HTML_DIR/builds/full
+ENV DELTA_BUILDS_DIR $HTML_DIR/builds/delta
+ENV VIEWS_DIR $HTML_DIR/views
 
 # set the working directory
 WORKDIR $HTML_DIR
@@ -53,3 +55,5 @@ RUN chmod -R 0775 /var/www/html \
 
 # create volumes
 VOLUME $FULL_BUILDS_DIR
+VOLUME $DELTA_BUILDS_DIR
+VOLUME $VIEWS_DIR

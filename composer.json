@@ -1,7 +1,7 @@
 {
   "name": "hoellenwesen/lineage-ota",
   "description": "A simple OTA REST Server for LineageOS OTA Updater System Application",
-  "version": "2.9.0",
+  "version": "2.9.1",
   "type": "project",
   "keywords": [
     "android",
@@ -14,10 +14,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name":         "Julian Xhokaxhiu",
-      "email":        "info@julianxhokaxhiu.com",
-      "homepage":     "http://julianxhokaxhiu.com",
-      "role":         "Creator/Lead Developer"
+      "name":         "Hoellenwesen"
     }
   ],
   "repositories": [
@@ -38,7 +35,7 @@
     }
   ],
   "require": {
-    "mikecao/flight": "2.*",
+    "mikecao/flight": "3.*",
     "julianxhokaxhiu/dotnotation": "dev-master",
     "ext-zip": "*",
     "twig/twig": "3.*"
@@ -47,9 +44,6 @@
     "psr-4": {
       "JX\\CmOta\\": "src/"
     }
-  },
-  "replace": {
-    "julianxhokaxhiu/cyanogenmod-ota":"2.*"
   },
   "suggest": {
     "ext-zip": "This extension is usually enabled, if not make sure it is. LineageOTA requires it to run."
